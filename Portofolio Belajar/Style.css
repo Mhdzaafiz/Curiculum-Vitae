@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left-container {
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: #25b79f;
+}
+
+.photo-contact {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+}
+
+.photo {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.contact-btn {
+    width: 50%;
+    background-color: white;
+    border-radius: 14px;
+    margin-bottom: 14px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.contact-btn:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+.right-container {
+    position: absolute;
+    left: 400px;
+    background-color: #07374a;
+}
+
+.top-bar {
+    list-style-type: none;
+    background-color: chocolate;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 70%;
+    padding-left: 20px;
+}
+
+.title {
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+.list-menu {
+    float: right;
+    padding-right: 40px;
+}
+
+.menu {
+    font-size: 1.1rem;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#profile {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#about {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 70px;
+}
+
+#experience {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#education {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#contact {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#footer {
+    text-align: center;
+    list-style-type: none;
+    background-color: chocolate;
+    overflow: hidden;
+}
